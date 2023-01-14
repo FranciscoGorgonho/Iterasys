@@ -1,0 +1,18 @@
+{
+  "id": 202302,
+  "category": {
+    "id": 1,
+    "name": "AXCV"
+  },
+  "name": "Atena",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 202303,
+      "name": "data"
+    }
+  ],
+  "status": "sold"
+}
