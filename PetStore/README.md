@@ -50,4 +50,4 @@ Os testes utilizam a sintaxe **Gherkin** para organizar as etapas do teste em tr
 
 **Autor**
 
-Este projeto foi criado por Francisco Gorgonho como parte de um curso de testes de API.
+Este projeto foi criado por **Francisco Gorgonho** como parte de um curso de testes de API.
