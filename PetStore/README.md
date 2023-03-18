@@ -27,10 +27,15 @@ Verifique a saída do console para ver os resultados dos testes
 A classe Pet contém os testes automatizados para as funcionalidades da API da Petstore. A classe possui os seguintes métodos:
 
 lerJson(String caminhoJson): Lê um arquivo JSON e retorna o conteúdo como uma string.
+
 incluirPet(): Testa a funcionalidade de incluir um novo pet na loja.
+
 consultarPet(): Testa a funcionalidade de consultar um pet específico por ID.
+
 alterarPet(): Testa a funcionalidade de alterar as informações de um pet existente.
+
 excluirPet(): Testa a funcionalidade de excluir um pet da loja.
+
 Cada método representa um teste automatizado específico e é executado pelo framework TestNG. Os testes realizam requisições HTTP para a API da Petstore utilizando a biblioteca RestAssured e validam as respostas recebidas.
 
 Os testes utilizam a sintaxe **Gherkin** para organizar as etapas do teste em três partes: Dado, Quando e Então (Given, When, Then). Cada parte é representada por uma função da biblioteca RestAssured, e a validação dos resultados é realizada utilizando as funções de validação do TestNG.
