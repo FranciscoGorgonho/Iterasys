@@ -5,21 +5,29 @@ Este é um projeto de teste automatizado utilizando a linguagem Java e a bibliot
 **Funcionalidades testadas**
 
 Incluir um novo pet na loja
+
 Consultar um pet específico por ID
+
 Alterar as informações de um pet existente
+
 Excluir um pet da loja
 
 **Pré-requisitos**
 
 Java JDK 8 ou superior instalado
+
 IDE de desenvolvimento Java (recomendado: IntelliJ IDEA)
+
 Bibliotecas RestAssured e TestNG adicionadas ao projeto
 
 **Como executar**
 
 Clone este repositório
+
 Importe o projeto em sua IDE
+
 Execute a classe Pet.java como um teste do TestNG
+
 Verifique a saída do console para ver os resultados dos testes
 
 **Como funciona**
@@ -41,4 +49,5 @@ Cada método representa um teste automatizado específico e é executado pelo fr
 Os testes utilizam a sintaxe **Gherkin** para organizar as etapas do teste em três partes: Dado, Quando e Então (Given, When, Then). Cada parte é representada por uma função da biblioteca RestAssured, e a validação dos resultados é realizada utilizando as funções de validação do TestNG.
 
 **Autor**
+
 Este projeto foi criado por Francisco Gorgonho como parte de um curso de testes de API.
